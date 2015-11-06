@@ -1,0 +1,141 @@
+body{
+    
+    background: url("../images/bg.jpeg") no-repeat center center fixed;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#wrapper {
+    position: absolute;
+    top: 470px;
+    left: 360px;
+    width: 620px;
+    height: 100px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 25px;
+    z-index: 800;
+}
+
+#title {
+	position: relative;
+    left: 320px;
+    width: 740px;
+    font-weight: bold;
+    font-size: 45px;
+    z-index: 900
+}
+
+#imgSlider {
+	
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    width: 900px;
+    height: 360px;
+    z-index: 899;
+}
+
+#imgSlider div {
+	
+    position: absolute;
+    z-index: 0;
+}
+
+#imgSlider div.previous {
+	z-index: 1;
+}
+
+
+#imgSlider div.current {
+	z-index: 2;
+}
+
+#tallestBldng {
+	
+    position: absolute;
+    display: none;
+    top: 10px;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 902;
+}
+
+.comingsoon{
+	position: absolute;
+    top: 150px;
+    left: 460px;
+    width: 400px;
+    height: 220px;
+    z-index: 903;
+}
+
+#closeBtn {
+	position: relative;
+    left: 1216px;
+    top: -14px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url("../images/close_button.png") no-repeat;
+}
+
+#text2 {
+	
+    position: absolute;
+    top: 450px;
+    left: 540px;
+    font-size: 25px;
+    z-index: 898
+}
+
+#pT15 {
+	position: absolute;
+    top: 500px;
+    left: 620px;
+    width: 100px;
+    height: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 901;
+}
+
+#pT15:hover {
+	color: red;
+    cursor: pointer;
+}
+
+#pT14 {
+	position: absolute;
+    top: 500px;
+    left: 420px;
+    width: 100px;
+    height: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 901;
+}
+
+#pT14:hover {
+	color: red;
+    cursor: pointer;
+}
+
+
+#pT16 {
+	position: absolute;
+    top: 500px;
+    left: 820px;
+    width: 100px;
+    height: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 901;
+}
+
+#pT16:hover {
+	color: red;
+    cursor: pointer;
+}
